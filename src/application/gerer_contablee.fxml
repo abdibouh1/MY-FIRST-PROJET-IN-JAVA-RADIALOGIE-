@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="559.0" prefWidth="837.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CONTROLER__GERER_CONTABLE">
+   <children>
+      <Pane prefHeight="559.0" prefWidth="839.0">
+         <children>
+            <ImageView fitHeight="559.0" fitWidth="860.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@fvfd.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="510.0" prefWidth="754.0">
+         <children>
+            <ImageView fitHeight="509.0" fitWidth="764.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/Saved%20Pictures/gdshew.jpg" />
+               </image>
+            </ImageView>
+            <TableView fx:id="table" layoutX="3.0" layoutY="98.0" onMouseClicked="#Test" opacity="0.54" prefHeight="403.0" prefWidth="382.0">
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="40.799988746643066" text="ID" />
+                  <TableColumn fx:id="nom" prefWidth="116.00002670288086" text="Name" />
+                  <TableColumn fx:id="email" prefWidth="128.8000030517578" text="Email" />
+                  <TableColumn fx:id="adresse" prefWidth="84.79998779296875" text="Adress" />
+               </columns>
+            </TableView>
+            <TextField fx:id="search" layoutX="92.0" layoutY="58.0" onKeyTyped="#search" prefHeight="26.0" prefWidth="282.0" />
+            <Label layoutX="25.0" layoutY="62.0" prefHeight="17.0" prefWidth="48.0" text="Search :" />
+            <Label layoutX="457.0" layoutY="34.0" prefHeight="48.0" prefWidth="181.0" text="Emplyees Informations" textAlignment="CENTER" textFill="#03b6fc">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="NAT" layoutX="491.0" layoutY="98.0" opacity="0.7" prefHeight="25.0" prefWidth="193.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="LNT" layoutX="491.0" layoutY="162.0" opacity="0.7" prefHeight="25.0" prefWidth="193.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Label fx:id="EMT" layoutX="491.0" layoutY="226.0" prefHeight="25.0" prefWidth="193.0">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="PAT" layoutX="490.0" layoutY="273.0" opacity="0.7" prefHeight="26.0" prefWidth="194.0" />
+            <TextField fx:id="IDTT" layoutX="491.0" layoutY="336.0" opacity="0.7" prefHeight="25.0" prefWidth="193.0">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="ADT" layoutX="491.0" layoutY="395.0" opacity="0.7" prefHeight="25.0" prefWidth="193.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </TextField>
+            <Button layoutX="657.0" layoutY="18.0" mnemonicParsing="false" onAction="#Page_dAccueil" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #05adef;" text="BACK">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="445.0" layoutY="468.0" mnemonicParsing="false" onAction="#Save" prefHeight="39.0" prefWidth="89.0" style="-fx-background-color: #05adef;" text="Save">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="567.0" layoutY="468.0" mnemonicParsing="false" onAction="#SupprimerButtonAction" prefHeight="39.0" prefWidth="89.0" style="-fx-background-color: #05adef;" text="DELETE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="669.0" layoutY="468.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="82.0" style="-fx-background-color: #05adef;" text="clear">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="406.0" layoutY="102.0" text="name">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="406.0" layoutY="166.0" text="last name">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="408.0" layoutY="230.0" text="EMAIL">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="404.0" layoutY="277.0" prefHeight="18.0" prefWidth="82.0" text="PASSWORD">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="407.0" layoutY="329.0" prefHeight="39.0" prefWidth="27.0" text="ID">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="400.0" layoutY="398.0" text="Adress :" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="test_nom" layoutX="495.0" layoutY="135.0" prefHeight="18.0" prefWidth="210.0" textFill="#ef0606" />
+            <Label fx:id="test_prenom" layoutX="482.0" layoutY="198.0" prefHeight="10.0" prefWidth="210.0" textFill="#fd0505" />
+            <Label fx:id="test_password" layoutX="478.0" layoutY="310.0" prefHeight="18.0" prefWidth="220.0" textFill="#ef0606" />
+            <Label fx:id="test_id" layoutX="491.0" layoutY="368.0" prefHeight="18.0" prefWidth="193.0" textFill="#ef0606" />
+            <Label fx:id="L177" layoutX="400.0" layoutY="432.0" prefHeight="18.0" prefWidth="269.0" textFill="#ef0606" />
+            <Label fx:id="test_adress" layoutX="552.0" layoutY="432.0" prefHeight="18.0" prefWidth="209.0" textFill="#ef0606" />
+            <Label layoutX="39.0" layoutY="24.0" prefHeight="20.0" prefWidth="182.0" text="list of Emplyees" textFill="#08b2f5">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

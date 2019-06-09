@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.What_the_docTor_D0">
+   <children>
+      <Pane prefHeight="332.0" prefWidth="453.0">
+         <children>
+            <Button layoutX="53.0" layoutY="81.0" mnemonicParsing="false" onAction="#addconterendu" prefHeight="25.0" prefWidth="150.0" text="ADD REOPRT " />
+            <Button layoutX="53.0" layoutY="154.0" mnemonicParsing="false" onAction="#addroom" prefHeight="25.0" prefWidth="150.0" text="ADD ROOM OF EXAM" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

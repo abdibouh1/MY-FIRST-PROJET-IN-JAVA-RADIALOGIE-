@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="445.0" prefWidth="598.0" style="-fx-background-color: rgb(255,255,255);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CONTROLR_CREATE_MEDECIN">
+   <children>
+      <Pane layoutY="7.0" prefHeight="315.0" prefWidth="431.0">
+         <children>
+            <TextField fx:id="NAT" layoutX="141.0" layoutY="35.0" />
+            <TextField fx:id="LNT" layoutX="141.0" layoutY="98.0" />
+            <TextField fx:id="IDTT" layoutX="141.0" layoutY="164.0" />
+            <TextField fx:id="EMT" layoutX="141.0" layoutY="276.0" />
+            <PasswordField fx:id="PAT" layoutX="141.0" layoutY="219.0" />
+            <Label layoutX="23.0" layoutY="34.0" text="name :" textFill="#05b3f7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="98.0" text="LAST NAME :" textFill="#05b3f7">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="163.0" text="ID :" textFill="#05b3f7">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="219.0" text="PASSWPRD :" textFill="#06b5fa">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="276.0" text="EMAIL :" textFill="#05b3f7">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="L11" layoutX="141.0" layoutY="71.0" prefHeight="17.0" prefWidth="114.0" textFill="#ef0606" />
+            <Label fx:id="L12" layoutX="108.0" layoutY="135.0" prefHeight="17.0" prefWidth="125.0" textFill="#fa0909" />
+            <Label fx:id="L13" layoutX="133.0" layoutY="190.0" prefHeight="17.0" prefWidth="114.0" textFill="#fa0909" />
+            <Label fx:id="L14" layoutX="127.0" layoutY="252.0" prefHeight="17.0" prefWidth="78.0" textFill="#fa0909" />
+         </children>
+      </Pane>
+      <TextField fx:id="ADT" layoutX="141.0" layoutY="349.0" />
+      <Button layoutX="365.0" layoutY="391.0" mnemonicParsing="false" onAction="#BtnEnvoyer" prefHeight="39.0" prefWidth="69.0" style="-fx-background-color: #06aff2;" text="save">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="478.0" layoutY="391.0" mnemonicParsing="false" onAction="#BtnAnnuler" prefHeight="39.0" prefWidth="78.0" style="-fx-background-color: #06aff2;" text="CANCEL">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button layoutX="467.0" layoutY="28.0" mnemonicParsing="false" onAction="#Page_dAccueil" prefHeight="38.0" prefWidth="94.0" style="-fx-background-color: #06aff2;" text="BACK">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Label layoutX="21.0" layoutY="348.0" text="ADRESS :" textFill="#05b3f7">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="L15" layoutX="135.0" layoutY="322.0" prefHeight="18.0" prefWidth="125.0" textFill="#fa0909" />
+      <Label fx:id="L16" layoutX="97.0" layoutY="383.0" prefHeight="18.0" prefWidth="149.0" textFill="#fa0909" />
+      <Label fx:id="L17" layoutX="90.0" layoutY="411.0" prefHeight="18.0" prefWidth="150.0" textFill="#fa0909" />
+      <ImageView fitHeight="146.0" fitWidth="138.0" layoutX="423.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagesFV0X8494.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

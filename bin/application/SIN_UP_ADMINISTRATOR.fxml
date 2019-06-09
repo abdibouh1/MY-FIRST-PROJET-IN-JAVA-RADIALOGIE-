@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="446.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controleur_SignUp_Administrateur">
+   <children>
+      <Pane prefHeight="489.0" prefWidth="510.0" style="-fx-background-color: rgb(255,255,255);">
+         <children>
+            <Label layoutX="30.0" layoutY="34.0" text="name :" textFill="#07b3f8">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="23.0" layoutY="111.0" text="last name :" textFill="#06b3f8">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="25.0" layoutY="172.0" text="ID :" textFill="#04b7fd">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="18.0" layoutY="236.0" text="PASSWORD :" textFill="#08b4f8">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="24.0" layoutY="304.0" text="EMAIL:" textFill="#08b2f5">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <Label layoutX="26.0" layoutY="367.0" text="ADRESS :" textFill="#06aff2">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <TextField fx:id="nomTxt" layoutX="147.0" layoutY="35.0" />
+            <TextField fx:id="prenomTxt" layoutX="147.0" layoutY="112.0" />
+            <TextField fx:id="id_Txt" layoutX="147.0" layoutY="173.0" />
+            <TextField fx:id="emailTxt" layoutX="147.0" layoutY="305.0" />
+            <TextField fx:id="adress_Txt" layoutX="147.0" layoutY="368.0" />
+            <ImageView fitHeight="143.0" fitWidth="150.0" layoutX="339.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagesC9YM9NNW.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="410.0" layoutY="35.0" mnemonicParsing="false" onAction="#Page_dAccueil" prefHeight="25.0" prefWidth="65.0" text="acceil" />
+            <PasswordField fx:id="passwordTxt" layoutX="146.0" layoutY="237.0" prefHeight="25.0" prefWidth="150.0" />
+            <Button layoutX="304.0" layoutY="440.0" mnemonicParsing="false" onAction="#BtnEnvoyer" prefHeight="32.0" prefWidth="81.0" text="SAVE" />
+            <Button layoutX="414.0" layoutY="438.0" mnemonicParsing="false" onAction="#BtnAnnuler" prefHeight="32.0" prefWidth="85.0" text="CENCEL" />
+            <Label fx:id="LSANA" layoutX="147.0" layoutY="70.0" prefHeight="25.0" prefWidth="210.0" textFill="#f00808" />
+            <Label fx:id="LSALA" layoutX="147.0" layoutY="146.0" prefHeight="17.0" prefWidth="193.0" textFill="#f00808" />
+            <Label fx:id="LSAID" layoutX="147.0" layoutY="212.0" prefHeight="17.0" prefWidth="193.0" textFill="#f00808" />
+            <Label fx:id="LSAPA" layoutX="146.0" layoutY="274.0" prefHeight="17.0" prefWidth="193.0" textFill="#f00808" />
+            <Label fx:id="LSAEM" layoutX="147.0" layoutY="339.0" prefHeight="17.0" prefWidth="193.0" textFill="#f00808" />
+            <Label fx:id="LSAAD" layoutX="316.0" layoutY="372.0" prefHeight="17.0" prefWidth="193.0" textFill="#f00808" />
+            <Label fx:id="LSAG" layoutX="56.0" layoutY="423.0" prefHeight="17.0" prefWidth="92.0" textFill="#f00808" />
+            <Label fx:id="L1" layoutX="146.0" layoutY="70.0" textFill="#f00808" />
+            <Label fx:id="L2" layoutX="146.0" layoutY="146.0" textFill="#f00808" />
+            <Label fx:id="L3" layoutX="146.0" layoutY="204.0" textFill="#f00808" />
+            <Label fx:id="L4" layoutX="146.0" layoutY="274.0" textFill="#f00808" />
+            <Label fx:id="L5" layoutX="146.0" layoutY="339.0" textFill="#f00808" />
+            <Label fx:id="L6" layoutX="344.0" layoutY="380.0" textFill="#f00808" />
+            <Label fx:id="L7" layoutX="69.0" layoutY="414.0" textFill="#f00808" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

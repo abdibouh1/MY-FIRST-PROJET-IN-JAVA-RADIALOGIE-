@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="418.0" prefWidth="501.0" style="-fx-background-color: rgb(255,255,255);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controleur_Login_Administrateur">
+   <children>
+      <Pane layoutX="-6.0" prefHeight="175.0" prefWidth="170.0" />
+      <PasswordField fx:id="txt_PASS" layoutX="148.0" layoutY="243.0" prefHeight="25.0" prefWidth="226.0" promptText="Password">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="41.0" layoutY="244.0" text="password" textFill="#14ade5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_LOGIN" layoutX="148.0" layoutY="167.0" prefHeight="25.0" prefWidth="226.0" promptText="Login">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="55.0" layoutY="171.0" prefHeight="17.0" prefWidth="55.0" text="Login" textFill="#0acaf5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="150.0" layoutX="208.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/LoginAdmin.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="131.0" layoutY="373.0" mnemonicParsing="false" onAction="#CreeCompt" prefHeight="30.0" prefWidth="259.0" style="-fx-background-color: #2a89e2;" text="SignUP" textAlignment="CENTER" textFill="#090909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginadmii" layoutX="131.0" layoutY="328.0" mnemonicParsing="false" onAction="#Seconnecter" prefHeight="25.0" prefWidth="259.0" text="login">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="acadmi" layoutX="385.0" layoutY="40.0" mnemonicParsing="false" onAction="#AccueilTypeCompt" prefHeight="25.0" prefWidth="83.0" text="Accueil" />
+      <Label fx:id="connecter_ou_pas" layoutX="150.0" layoutY="209.0" prefHeight="18.0" prefWidth="226.0" />
+      <Label fx:id="Error_lbl" layoutX="136.0" layoutY="294.0" prefHeight="18.0" prefWidth="248.0" />
+      <Label fx:id="R1" layoutX="100.0" layoutY="295.0" prefHeight="18.0" prefWidth="322.0" textFill="#fd0303" />
+   </children>
+</AnchorPane>

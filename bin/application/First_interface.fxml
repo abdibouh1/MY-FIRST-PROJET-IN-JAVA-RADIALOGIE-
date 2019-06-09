@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Type_of_job_conroler">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="600.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Healthcare.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="205.0" layoutY="79.0" mnemonicParsing="false" onAction="#Administrateur" opacity="0.6" prefHeight="25.0" prefWidth="172.0" text="Administrator">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="172.0" mnemonicParsing="false" onAction="#Medecin" opacity="0.6" prefHeight="25.0" prefWidth="172.0" text="Medecin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="269.0" mnemonicParsing="false" onAction="#Secretaire" prefHeight="25.0" prefWidth="172.0" text="Secretere">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

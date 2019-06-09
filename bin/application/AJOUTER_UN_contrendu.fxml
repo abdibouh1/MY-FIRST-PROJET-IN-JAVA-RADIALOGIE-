@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="432.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Ajouter_Controller_Contrendu">
+   <children>
+      <ComboBox fx:id="cin_combobox" layoutX="193.0" layoutY="67.0" prefHeight="26.0" prefWidth="270.0" />
+      <ComboBox fx:id="nom_medcine_combobox" layoutX="193.0" layoutY="121.0" prefHeight="26.0" prefWidth="270.0" />
+      <ComboBox fx:id="nom_examn_combobox" layoutX="193.0" layoutY="174.0" prefHeight="26.0" prefWidth="270.0" />
+      <Label layoutX="30.0" layoutY="67.0" prefHeight="26.0" prefWidth="80.0" text="Cin patient: " />
+      <Label layoutX="20.0" layoutY="174.0" prefHeight="26.0" prefWidth="99.0" text="NAME Of Examn :  " />
+      <Label layoutX="21.0" layoutY="121.0" prefHeight="26.0" prefWidth="90.0" text="NAME PATIENT" />
+      <Label layoutX="149.0" layoutY="14.0" prefHeight="26.0" prefWidth="270.0" text="Add reprt" />
+      <Label layoutX="35.0" layoutY="220.0" prefHeight="26.0" prefWidth="90.0" text="Description" />
+      <TextField fx:id="description" layoutX="123.0" layoutY="246.0" prefHeight="172.0" prefWidth="490.0" />
+      <Button layoutX="532.0" layoutY="40.0" mnemonicParsing="false" onAction="#Ajouter" prefHeight="26.0" prefWidth="90.0" text="Ajouter" />
+      <Label fx:id="globletest" layoutX="284.0" layoutY="216.0" prefHeight="18.0" prefWidth="333.0" textFill="#f80404" />
+   </children>
+</AnchorPane>
